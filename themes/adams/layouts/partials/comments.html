@@ -33,7 +33,7 @@ function initComments() {
         });
     } else {
         const script = document.createElement('script');
-        script.src = 'https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js';
+        script.src = 'https://cdn.staticfile.org/twikoo/1.6.44/twikoo.all.min.js';
         script.onload = function() {
             twikoo.init({
                 envId: '{{ .Site.Params.comments.twikoo.envId }}',
@@ -77,11 +77,11 @@ function initComments() {
     } else {
         const linkCSS = document.createElement('link');
         linkCSS.rel = 'stylesheet';
-        linkCSS.href = 'https://cdn.staticfile.org/artalk/2.5.5/Artalk.css';
+        linkCSS.href = 'https://cdn.staticfile.org/artalk/2.8.4/Artalk.css';
         document.head.appendChild(linkCSS);
 
         const script = document.createElement('script');
-        script.src = 'https://cdn.staticfile.org/artalk/2.5.5/Artalk.js';
+        script.src = 'https://cdn.staticfile.org/artalk/2.8.4/Artalk.js';
         script.onload = function() {
             new Artalk({
                 el: '#comments',
