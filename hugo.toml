@@ -10,7 +10,7 @@ theme = "adams"
 
 # 主要内容类型
 [params]
-  description = 玩啥呢"
+  description = "玩啥呢"
   keywords = ["博客", "Adams", "Hugo"]
   mainSections = ["posts"]
 
