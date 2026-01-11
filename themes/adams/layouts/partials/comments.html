@@ -83,7 +83,7 @@ function initComments() {
         const script = document.createElement('script');
         script.src = '{{ .Site.Params.comments.artalk.server }}/dist/Artalk.js';
         script.onload = function() {
-            new Artalk({
+            Artalk.init({
                 el: '#comments',
                 pageKey: window.location.pathname,
                 pageTitle: '{{ .Title }}',
