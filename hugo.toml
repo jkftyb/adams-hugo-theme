@@ -1,16 +1,16 @@
-baseURL = "https://blog.0tz.top/Adams-Hugo/"
+baseURL = "https://wanne.cn"
 languageCode = "zh-CN"
-title = "Adams"
+title = "玩呢笔记"
 theme = "adams"
 
 # 分页设置
 [pagination]
-  pagerSize = 4
+  pagerSize = 5
   path = "page"
 
 # 主要内容类型
 [params]
-  description = "Simple is beautiful"
+  description = 玩啥呢"
   keywords = ["博客", "Adams", "Hugo"]
   mainSections = ["posts"]
 
@@ -30,11 +30,11 @@ theme = "adams"
   disablePjax = false
 
   # ICP备案号
-  icp = ""
+  icp = "鄂ICP备16022970号-15"
 
   # 打赏二维码
-  wechatpay = ""  # 微信打赏二维码URL
-  alipay = ""     # 支付宝打赏二维码URL
+  wechatpay = "https://blog.sgcd.net/usr/uploads/2024/08/440236326.png"  # 微信打赏二维码URL
+  alipay = "https://blog.sgcd.net/usr/uploads/2024/08/406697407.png"     # 支付宝打赏二维码URL
 
   # 文章底部广告HTML
   postAd = ""
@@ -42,19 +42,19 @@ theme = "adams"
   # 评论系统配置
   [params.comments]
     # 选择评论系统: twikoo, artalk, gitalk 或留空不使用
-    system = "twikoo"
+    system = "artalk"
 
     # Twikoo 配置
     [params.comments.twikoo]
-      envId = "https://t.memos.ee"  # Twikoo 环境ID或URL
+      envId = "https://twikoo.zxd.im"  # Twikoo 环境ID或URL
       region = ""                        # 环境地域，默认为 ap-shanghai
       path = ""                          # 用于区分不同文章的 path，默认为 window.location.pathname
       lang = "zh-CN"                     # 语言，支持 zh-CN, zh-TW, en
 
     # Artalk 配置
     [params.comments.artalk]
-      server = "https://your-artalk-server"  # Artalk 服务器地址
-      site = ""                              # 站点名称，默认使用网站标题
+      server = "https://artalk.loliko.cn"  # Artalk 服务器地址
+      site = "wanne"                              # 站点名称，默认使用网站标题
       placeholder = "来都来了，说点什么..."    # 评论框占位文字
       noComment = "快来成为第一个评论的人吧~"  # 无评论时的提示
       sendBtn = "发送"                       # 发送按钮文字
